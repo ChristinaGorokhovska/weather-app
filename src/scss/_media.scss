@@ -1,0 +1,67 @@
+@media screen and (max-width: 950px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .today-by-hours {
+    max-width: 800px;
+    .swiper-wrapper {
+      gap: 50px;
+    }
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .today-by-hours {
+    max-width: 700px;
+    .swiper-wrapper {
+      gap: 25px;
+    }
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .input-city__block input {
+    padding: em(6, 20) em(18, 20);
+  }
+
+  .today-by-hours {
+    max-width: 600px;
+    .today-hour-weather {
+      max-width: 80px;
+      .time {
+        font-size: 1rem;
+      }
+      img {
+        width: 50px;
+      }
+
+      .temperature {
+        font-size: rem(16);
+      }
+    }
+    .swiper-wrapper {
+      gap: 6px;
+    }
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .input-city__block {
+    padding: 0 20px;
+    gap: 10px;
+
+    button {
+      padding: em(8, 18);
+    }
+  }
+
+  .today-by-hours {
+    max-width: 500px;
+    .today-hour-weather {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
