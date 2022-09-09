@@ -4,7 +4,7 @@
 /src/config
 
 #media
-/src/scss/media.scss
+/src/scss/_media.scss
 
 # dependencies
 /node_modules
